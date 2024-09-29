@@ -1,0 +1,14 @@
+{
+    "12345": {
+        "Name": "prince",
+        "Age": 20,
+        "Student id": "12345",
+        "Attandence list": []
+    },
+    "2345": {
+        "Name": "ashok",
+        "Age": 24,
+        "Student id": "2345",
+        "Attandence list": []
+    }
+}
