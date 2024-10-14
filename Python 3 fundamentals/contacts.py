@@ -9,5 +9,5 @@ contact={
 }
 
 print("student email id's are:")
-for i in range(contact["number"]):
-    print(contact["students"][i]["email"])
+for student in contact["students"]:
+    print(student["email"])
