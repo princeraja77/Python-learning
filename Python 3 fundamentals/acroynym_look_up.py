@@ -1,7 +1,7 @@
 srh_word=input("Enter the acronym you want definition:\n")
 found=False
-with open("acroynm.txt",'r') as file:
-    for line in file:
+with open("/workspaces/Python-learning/Python 3 fundamentals/acroynm.txt") as fo:
+    for line in fo:
         if srh_word in line:
             print(line)
             found=True
