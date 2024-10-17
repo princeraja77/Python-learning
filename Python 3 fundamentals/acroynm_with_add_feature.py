@@ -3,7 +3,7 @@ import acroynym_look_up as al
 def add_acronym(acronym):
     res=al.look_up(acronym)
     if res==False:
-        definition=input("Enter the definition of acronym")
+        definition=input("Enter the definition of acronym\n")
         with open("/workspaces/Python-learning/Python 3 fundamentals/acroynm.txt",'a') as fo:
             fo.write(f"\n{acronym} -> {definition}.")
     else:
